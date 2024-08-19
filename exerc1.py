@@ -1,5 +1,5 @@
 
-idade = int(input("Qual sua idade criança? :  "))
+idade = int(input("Qual sua idade criança? :  ")) 
 
 if idade >=6 <=7:
     print("Você é PEQUENO")
@@ -14,6 +14,8 @@ if idade >= 12:
     print("Você é ALUNO 3")
     
 if idade <6:
-    print("Você é muito novo para ser classificado")
+    print("Você é muito novo para ser classificado") 
+    
+
 
 

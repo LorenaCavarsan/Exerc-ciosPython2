@@ -1,9 +1,9 @@
 N = int(input("Digite um número inteiro positivo: "))
 
-soma = 0
+contador = 0
 
-for i in range(1, N + 1):
-    soma += i
+for soma in range(1, N + 1):
+    contador += soma
 
 
-print(f"A soma dos números de 1 até {N} é {soma}.")
+print(f"A soma dos números de 1 até {N} é {contador}.")
